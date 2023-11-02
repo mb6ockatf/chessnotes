@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{xskak}
+\title{chess notes}
+\author{mb6ockatf}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\pagebreak
+
+\section{openings}
+	\subsection{for white}
+	\subsubsection{English}
+	\newchessgame
+	\mainline{1. c4 e5} \\
+	\mainline{2. Nc3 \xskakcomment{ get this night and a pawn in one
+		file. you can lose pawn on c4 to clear n1-a8 diagonal
+		for your fianchettoed bishop} Nf6}\\
+	\mainline{3. g3 Bb4}\\
+	\mainline{4. Bg2 O-O}\\
+	\mainline{5. e3 Bxc3}\\
+	\mainline{6. dxc3 d6}\\
+	\mainline{7. O-O}
+	\\
+	\chessboard
+
+	cute \& simple, easy to play when got used to. Can be played in speed
+	games
+	\pagebreak
+
+	\subsubsection{London System}
+	\newchessgame
+	\mainline{1. d4 Nf6 2. Bf4 d5 3. e3 e6 4. Nd2 c5 5. c3 Nc6 6. Ngf3 Bd6
+	7. Bg3}
+	\chessboard[pgfstyle=border,markfields={b2, c3, d4, e3, f2},
+            pgfstyle=color,
+	    opacity=0.5]\\
+	Build this triangle and destroy. Make sure you do not blunder anything
+	on the kingside, like bishop and knight on rank 3
+	\pagebreak
+
+	\subsection{for black}
+\end{document}
